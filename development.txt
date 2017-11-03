@@ -8,3 +8,17 @@ internal --in head by style tag
 external in head by link tag
 
 hexadecimal colors from w3schools by google it 
+
+p,h1,h4{color: red}
+div p{color: blue}// parent div and child p
+
+==============selectors done  by id / class 
+#idname {
+    color: red
+}
+
+.classname{
+    color: red
+}
+
+id for unique and class used for multiple elements  
