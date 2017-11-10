@@ -1,0 +1,42 @@
+smaccs.com for basic development tips 
+diff sass and scss https://responsivedesign.is/articles/difference-between-sass-and-scss/ 
+best practices https://www.youtube.com/watch?v=c3fwnwSRGU0
+
+https://www.udemy.com/html-and-css-for-beginners-crash-
+course-learn-fast-easy/learn/v4/t/lecture/2613524?start=0
+
+next to start css
+=======
+inline --in tag
+internal --in head by style tag
+external in head by link tag
+
+hexadecimal colors from w3schools by google it 
+
+==========javascript==
+
+ internal by in body make script tag
+external by addding script tag in head 
+<script src="">
+
+=====scss==
+did webpack by src folder inside scss 
+node-sass is for use in node.js with webpack
+there are other like sass itself like node-sass.
+http://sass-lang.com/install but i will go with
+https://webdesign.tutsplus.com/tutorials/watch-and-compile-sass-in-five-quick-steps--cms-28275 by node
+
+https://www.youtube.com/watch?v=wz3kElLbEHE  SASS Tutorial
+ Sass lets you use features that don't exist in CSS yet like variables, nesting, mixins, inheritance 
+===============
+sass comments :
+//
+/* */
+/*! loud comment */
+================
+
+added normalize.scss 
+https://github.com/npmcomponent/JohnAlbin-normalize-scss/blob/master/_normalize.scss
+
+ variables 
+ $font-stack:    Helvetica, sans-serif;

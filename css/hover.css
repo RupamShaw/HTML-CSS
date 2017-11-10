@@ -1,0 +1,11 @@
+#hovers{
+    color:green;
+    width: 200px;
+    height: 200px;
+    border: 20px solid gold;
+    text-align: center;
+    }
+#hovers:hover{
+    background: blue;
+    border:40px solid black;
+}

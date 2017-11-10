@@ -2,4 +2,37 @@ p{
 color: goldenrod;
 font-weight: bold;
 font-size: 50px;
+text-decoration: blink;
+text-transform:capitalize;
+background: blue;
+border: 10px double;
+margin: 10px;
+border-radius: 20px
 }
+ ul{
+    list-style-type: square;
+    width:50px;
+    margin:1px;
+    padding: none;
+    float: left;
+    
+}
+ol{
+    list-style-type: upper-roman;
+    float: right;
+    border: 1px solid black;
+    border-radius: 20px
+}
+div{
+    text-align: center;
+border: 1px solid black;
+margin-top: 30px;
+text-decoration: blink;
+background: red;
+border: 1px solid blueviolet;
+padding: 10px;
+color:white;
+border-radius: 20px;
+}
+
+

@@ -1,0 +1,46 @@
+@import 'variables';
+$mainColor: #7777bb;
+
+.intro-components{
+    padding: 20px;
+    background: $mainColor;
+    color: #FFFFFF;
+    font-family: arial;
+    h1{
+      text-transform: uppercase;
+    }
+    div{
+      color: $ash-gray;
+    }
+    nav {
+    
+      ul {
+        margin: 20px;
+        padding: 10px;
+        list-style: none;
+        
+      }
+    
+      li { display: inline-block; }
+    
+      a {
+        display: block;
+        padding: 6px 12px;
+        color: #00FF55;
+        text-decoration-color: $ash-gray;
+        text-decoration: underline;
+        &:hover{color: red;}
+       &:focus{color: blue;}
+        &:visited{color: gold}
+      }
+    }
+}
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: yellow;
+}
+
