@@ -30,6 +30,7 @@ https://www.youtube.com/watch?v=wz3kElLbEHE  SASS Tutorial
  Sass lets you use features that don't exist in CSS yet like variables, nesting, mixins, inheritance 
 ===============
 sass comments :
+
 //
 /* */
 /*! loud comment */
@@ -40,3 +41,28 @@ https://github.com/npmcomponent/JohnAlbin-normalize-scss/blob/master/_normalize.
 
  variables 
  $font-stack:    Helvetica, sans-serif;
+
+Nested Rules
+#main {
+  width: 97%;
+
+  p, div {
+    font-size: 2em;
+    a { font-weight: bold; }
+  }
+
+  pre { font-size: 3em; }
+}
+  the parent selector(a) should be inserted using the & character.
+ a {
+  font-weight: bold;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+  body.firefox & { font-weight: normal; }
+}
+
+partials are adding scss via import
+extend is include in other selector by @extend 
+
+ mixins functions
+ operators

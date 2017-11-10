@@ -1,0 +1,15 @@
+.panel{
+    border: 3px solid dodgerblue;
+    background: lightgreen;
+    margin: 10px;
+}
+.little-panel{
+    @extend .panel;
+    font-size: 12px;
+    padding: 8px;
+}
+.big-panel{
+    @extend .panel;
+    font-size: 20px;
+    padding: 10px;
+}
