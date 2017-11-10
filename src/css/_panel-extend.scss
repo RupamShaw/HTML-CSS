@@ -3,13 +3,20 @@
     background: lightgreen;
     margin: 10px;
 }
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
 .little-panel{
     @extend .panel;
+    @include border-radius(5px);
     font-size: 12px;
     padding: 8px;
 }
 .big-panel{
     @extend .panel;
+    @include border-radius(20px);
     font-size: 20px;
     padding: 10px;
 }
